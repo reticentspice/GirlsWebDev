@@ -5,41 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video and Table</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
-    <br>
-    <table style="border: 1px solid black">
-        <thead>
-            <tr style="border: 1px solid black">
-                <th colspan="3">My Favourite Foods</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr style="border: 1px solid black">
-                <td style="border: 1px solid black">Cuisine</td>
-                <td style="border: 1px solid black">Favourite Dish</td>
-                <td style="border: 1px solid black">Picture</td>
+    <main>
+        <br>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+        <br>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">My Favourite Foods</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cuisine</td>
+                    <td>Favourite Dish</td>
+                    <td>Picture</td>
 
-            </tr>
-            <tr>
-                <td style="border: 1px solid black">Indian</td>
-                <td style="border: 1px solid black">Palak paneer</td>
-                <td style="border: 1px solid black"><img src="palak.jpg"></td>
-            </tr>
-            <tr style="border: 1px solid black">
-                <td style="border: 1px solid black">Korean</td>
-                <td style="border: 1px solid black">Budaejjigae</td>
-                <td style="border: 1px solid black"><img src="budaejjigae.jpg"></td>
-            </tr>
-            <tr style="border: 1px solid black">
-                <td style="border: 1px solid black">Mexican</td>
-                <td style="border: 1px solid black">Anything loaded with cheese</td>
-                <td style="border: 1px solid black"><img src="cheesy.jpg"></td>
-            </tr>
-        </tbody>
-    </table>
+                </tr>
+                <tr class="dark-rows">
+                    <td>Indian</td>
+                    <td>Palak paneer</td>
+                    <td><img class="ext-img" src="palak.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Korean</td>
+                    <td>Budaejjigae</td>
+                    <td><img class="ext-img" src="budaejjigae.jpg"></td>
+                </tr>
+                <tr class="dark-rows">
+                    <td>Mexican</td>
+                    <td>Anything loaded with cheese</td>
+                    <td><img class="ext-img" src="cheesy.jpg"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 </body>
+<footer>
+    <p><i>Last updated 11 October 2023</i></p>
+</footer>
 
 </html>
